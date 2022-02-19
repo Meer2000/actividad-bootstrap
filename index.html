@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/f17ac2d80e.js" crossorigin="anonymous"></script>
+
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- crear barra de navegacion-->
+    <nav  class="navbar navbar-expand-lg navbar-light bg-ty" id="mainnav"> 
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex" class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#primera">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#segunda">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- MAIN-->
+      <header class="img1  bg-h text-white text-center">
+          <div class="container d-flex align-items-center flex-column">
+              <img class="img1-avatar" src="./imagenes/persona.svg" alt="">
+              <h1>START BOOTSTRAP</h1>
+              
+              <div class="logo"></div>
+              
+            
+            
+
+
+              <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+              </div>
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </header>
+
+      <!--portafolio-->
+      <section class="container text-center" id="primera">
+
+        <h2>PORTAFOLIO</h2>
+        <div class="logo2"></div>
+        <div class="row">
+          <div class="col-4">
+            <img src="./imagenes/casa.jpeg" width="336" height="242"  alt="" >
+          </div>
+          <div class="col-4">
+            <img src="./imagenes/pastel.jpeg" width="336" height="242">
+          </div>
+          <div class="col-4">
+            <img src="./imagenes/circo.jpeg"  width="336" height="242" alt="">
+          </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-4">
+              <img src="./imagenes/control.jpeg" width="336" height="242" alt="">
+            </div>
+            <div class="col-4">
+              <img src="./imagenes/caja.jpeg" width="336" height="242">
+            </div>
+            <div class="col-4">
+              <img src="./imagenes/submarino.jpeg"  width="336" height="242" alt="">
+            </div>
+          </div>
+        </div>
+        <!--ABOUT-->
+      </section>
+      <section class="bg-h text-center text-white" id="segunda">
+          <h2>ABOUT</h2>
+          <div class="logo"></div>
+          <div class="row">
+              <div class="col-6" id="texto1"><p class="lead"> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                  
+              </div>
+              <div class="col-6" id="texto2"><p class="lead"> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+
+
+
+          </div>
+        <!--button-->
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <button type="button" class="btn btn-outline-light"><i class="icon-star"></i> Free download</button>
+        </div>
+
+
+
+
+      </section>
+      <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                
+                    <div class="logo2"></div>
+                
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        
+                        <!-- * * SB Forms Contact Form * *-->
+                        
+                        <form id="contactForm">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                                <label for="name">Full name</label>
+                                
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                              
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                
+                            </div>
+                            <!-- Submit success message-->
+                           
+                            
+                           
+                            <button class="btn btn-primary btn-xl " id="submitButton" type="submit">Send</button>
+                        </form>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer class="footer text-center ">
+          <div class="container">
+              <div class="row">
+                  <!-- Footer Location-->
+                  <div class="col-lg-4 mb-5 mb-lg-0" id="columna">
+                      <h4 class="text-uppercase mb-4">Location</h4>
+                      <p class="lead mb-0">
+                          2215 John Daniel Drive
+                          <br />
+                          Clark, MO 65243
+                      </p>
+                  </div>
+                  <!-- Footer Social Icons-->
+                  <div class="col-lg-4 mb-5 mb-lg-0" id="columna">
+                      <h4 class="text-uppercase mb-4">Around the Web</h4>
+                      <a class="btn btn-outline-light btn-social mx-1" style="border-radius: 50px;" href="#!"><i class="fa-brands fa-facebook"></i></a>
+                      <a class="btn btn-outline-light btn-social mx-1" style="border-radius: 50px" href="#!"><i class="fa-brands fa-twitter"></i></a>
+                      <a class="btn btn-outline-light btn-social mx-1" style="border-radius: 50px" href="#!"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a class="btn btn-outline-light btn-social mx-1" style="border-radius: 50px" href="#!"><i class="fa-brands fa-dribbble"></i></a>
+                      
+                
+                      
+                  </div>
+                  <!-- Footer About Text-->
+                  <div class="col-lg-4">
+                      <h4 class="text-uppercase mb-4" id="columna">About Freelancer</h4>
+                      <p class="lead mb-0">
+                          Freelance is a free to use, MIT licensed Bootstrap theme created by
+                          <a href="" id="start"> Start Bootstrap</p></a>
+                          .
+                      </p>
+                  </div>
+              </div>
+          </div>
+      
+        
+    
+    
+</body>
+</html>

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg-ty{background-color: #2C3E50;}
+#mainnav .navbar-brand{
+    color: white;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    font-size: 35px;
+    white-space: nowrap;
+    text-decoration: none;
+    
+    
+}
+
+#navbarNav .navbar-nav a {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    margin-right: 60px;
+
+
+}
+#navbarNav .navbar-nav a:hover{
+    color: #1abc9c;
+}
+/* MAIN */
+.bg-h{
+    background-color: #1abc9c;
+}
+.img1 .img1-avatar {
+    width: 200px;
+}
+.bg-h .container .img1-avatar {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.bg-h {
+    background-color: #1ABC9C;
+    height: 600px;
+    text-align: center;
+}
+
+.img1 .img1-avatar {
+    width: 250px;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.logo::after {
+    content: "";
+    width: calc(100%-30px);
+    max-width: 330px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    right: 0;
+    margin:  auto;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+.logo::before {
+    content: "";
+    margin: 0 auto;
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    display: block;
+    background: #1ABC9C url(/imagenes/hhh.svg) no-repeat center center;
+    padding: 0 10px;
+    z-index: 2;
+    background-size: 40px;
+
+}
+
+
+.container .row .col-4 img{
+    border-radius: 20px;
+}
+/* ABOUT*/
+
+#segunda h2{
+ padding-top: 100px;
+}
+#segunda{
+    margin-top: 7%;
+}
+#texto1{
+    
+padding-left:20% ;
+text-align: left;
+
+}
+#texto2{
+    padding-right:25% ;
+    text-align: left;
+    
+    }
+   
+       
+    
+    .d-grid {
+        margin-top: 60px;
+    }
+
+
+
+ .d-grid .btn .icon-star {
+     height: 100px;
+     width: 100px;
+
+ }
+
+ .d-grid .btn{
+     font-size: 25px;
+     font-weight: bold;
+ }
+ #primera {padding-top: 100px;}
+ #tercera {padding-top: 100px;}
+ 
+ .logo2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.logo2::after {
+    content: "";
+    width: calc(100%-30px);
+    max-width: 330px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    background: #2C3E50;
+    left: 0;
+    right: 0;
+    margin:  auto;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
+.logo2::before {
+    content: "";
+    margin: 0 auto;
+    width: 30px;
+    color: #2C3E50;
+    height: 30px;
+    position: relative;
+    display: block;
+    background: white url(/imagenes/hhh.svg) no-repeat center center;
+    padding: 0 10px;
+    z-index: 2;
+    background-size: 40px;
+
+    
+
+}
+footer{margin-top: 50px;
+background-color: #2C3E50;
+color: white;}
+
+
+#columna{padding-top: 100px;}
+#start:hover{background-color: grey;
+}
+#start  {color: #1abc9c;}
